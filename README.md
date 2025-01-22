@@ -28,8 +28,7 @@ This is a simple project management system developed as part of an interview for
 
 ## API Endpoints
 
-- **GET** `/api/projects`: Retrieve the list of projects.  
-  [Online API](https://iamismaill.com/api/api/projects)
+- **GET** `/api/projects`: Retrieve the list of projects.   (https://iamismaill.com/api/api/projects)
 
 - **POST** `/api/projects`: Create a new project.  
   [Online API](https://iamismaill.com/api/api/projects)
