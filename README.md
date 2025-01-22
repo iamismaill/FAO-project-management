@@ -141,6 +141,8 @@ CREATE TABLE `projects` (
   ![image](https://github.com/user-attachments/assets/53ac7944-0cfe-481e-bbb3-8a2df76a40fa)
   ![image](https://github.com/user-attachments/assets/8ddaef5d-136a-4627-a5c0-b2cb8cc7a1d3)
   Delete project screenshot
+![image](https://github.com/user-attachments/assets/d39dd90b-c239-46be-b2e3-e23b02ce6fb6)
+
 
 ## Additional Information
 
