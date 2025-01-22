@@ -31,7 +31,7 @@ Below is the architecture diagram of the project showcasing the frontend, backen
 - **Import/Export**: Users can import project data from Excel.
 
 ## API Endpoints
-
+The following API endpoints are available for managing projects. These are hosted online and can be accessed through the provided URLs:
 - **GET** `/api/projects`: Retrieve the list of projects.(https://iamismaill.com/api/api/projects)
 
 - **POST** `/api/projects`: Create a new project.(https://iamismaill.com/api/api/projects)
