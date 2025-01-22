@@ -151,8 +151,9 @@ CREATE TABLE `projects` (
 
 ## Additional Information
 
-- The frontend is currently being deployed to my host and will be available soon.
+- You can access the live frontend of the project here: [https://iamismaill.com/Front_end/index.html](https://iamismaill.com/Front_end/index.html)
 - For more information, feel free to reach out to (info@iamismaill.com).
-## License
 
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+## License
+This project is licensed under the [MIT License](https://opensource.org/licenses/MIT).
+
