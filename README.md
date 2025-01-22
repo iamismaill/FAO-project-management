@@ -1,4 +1,3 @@
-![image](https://github.com/user-attachments/assets/81347eda-7c82-4323-9b8e-3b305d6f009d)
 # FAO Project Management System
 
 This is a simple project management system developed as part of an interview for the FAO (Food and Agriculture Organization). It allows users to create, update, retrieve, and delete projects using a backend API and a frontend interface. The backend is built with Laravel, and the frontend is built using React. The system provides a way to manage a collection of projects, and it includes additional features like importing and exporting project data in Excel format.
@@ -143,6 +142,7 @@ CREATE TABLE `projects` (
   ![image](https://github.com/user-attachments/assets/53ac7944-0cfe-481e-bbb3-8a2df76a40fa)
   ![image](https://github.com/user-attachments/assets/d66f257d-7bcb-4455-895a-f327ce9135da)
   ![image](https://github.com/user-attachments/assets/0f4b3952-d708-4cb1-a058-535abac6d26b)
+  ![image](https://github.com/user-attachments/assets/81347eda-7c82-4323-9b8e-3b305d6f009d)
 
 ## Additional Information
 
