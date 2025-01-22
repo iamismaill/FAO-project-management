@@ -144,11 +144,10 @@ CREATE TABLE `projects` (
   ![image](https://github.com/user-attachments/assets/d66f257d-7bcb-4455-895a-f327ce9135da)
   ![image](https://github.com/user-attachments/assets/0f4b3952-d708-4cb1-a058-535abac6d26b)
 
-
-
-
-
 ## Additional Information
 
 - The frontend is currently being deployed to my host and will be available soon.
 - For more information, feel free to reach out to (https://iamismaill.com).
+## License
+
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
