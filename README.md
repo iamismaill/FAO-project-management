@@ -152,7 +152,7 @@ CREATE TABLE `projects` (
 ## Additional Information
 
 - The frontend is currently being deployed to my host and will be available soon.
-- For more information, feel free to reach out to (https://iamismaill.com).
+- For more information, feel free to reach out to (info@iamismaill.com).
 ## License
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
