@@ -56,12 +56,7 @@ This is a simple project management system developed as part of an interview for
    cp .env.example .env
    ```
 
-4. Generate the application key:
-   ```bash
-   php artisan key:generate
-   ```
-
-5. Set up the database configuration in the `.env` file. Ensure your database credentials are correct:
+4. Set up the database configuration in the `.env` file. Ensure your database credentials are correct:
    ```bash
    DB_CONNECTION=mysql
    DB_HOST=127.0.0.1
@@ -71,45 +66,46 @@ This is a simple project management system developed as part of an interview for
    DB_PASSWORD=your_database_password
    ```
 
-6. Run the migrations to create the necessary database tables:
+5. Run the migrations to create the necessary database tables:
    ```bash
    php artisan migrate
    ```
 
-7. (Optional) If you want to seed the database with sample data, run:
-   ```bash
-   php artisan db:seed
-   ```
 
-8. Start the Laravel development server:
+9. Start the Laravel development server:
    ```bash
    php artisan serve
    ```
 
    The backend API should now be accessible at `http://localhost:8000` or at the URL provided in your `.env` file.
-
+   # Access the API
+If you prefer not to run the Laravel API locally, you can directly access the hosted API at: https://iamismaill.com/api/api/projects
 ### Frontend Setup (React)
 
 1. Navigate to the frontend directory:
    ```bash
    cd frontend
    ```
-
+### Using npm
 2. Install the required dependencies using npm:
    ```bash
    npm install
    ```
 
-3. Create a `.env` file in the root of the frontend directory and add the following to point to the backend API:
-   ```bash
-   REACT_APP_API_URL=http://localhost:8000/api/projects
-   ```
-
-4. Start the React development server:
+3. Start the React development server:
    ```bash
    npm start
    ```
 
+### Using yarn
+2. Install the required dependencies using yarn:
+   ```bash
+   yarn
+   ```
+3. Start the React development server:
+   ```bash
+   yarn start
+   ```
    The frontend should now be running on `http://localhost:3000`.
 
 5. Visit `http://localhost:3000` to interact with the application. Make sure the backend API is running to allow the frontend to connect properly.
@@ -134,16 +130,16 @@ CREATE TABLE `projects` (
 
 ## Import and Export Functionality
 
-- **Import**: You can upload an Excel file to import project data into the system.
-- **Export**: You can export the project list to an Excel file for offline use.
+- **Import**: You can upload an Excel file to import project data into the system (the file must contain Name,Description,Status).
 
 ## Screenshots
-
+   List of Projects Screenshot
+  ![image](https://github.com/user-attachments/assets/0f4b3952-d708-4cb1-a058-535abac6d26b)
+  Add new project screenshot
+  ![image](https://github.com/user-attachments/assets/d66f257d-7bcb-4455-895a-f327ce9135da)
+  Update project screenshot
   ![image](https://github.com/user-attachments/assets/8ddaef5d-136a-4627-a5c0-b2cb8cc7a1d3)
   ![image](https://github.com/user-attachments/assets/53ac7944-0cfe-481e-bbb3-8a2df76a40fa)
-  ![image](https://github.com/user-attachments/assets/d66f257d-7bcb-4455-895a-f327ce9135da)
-  ![image](https://github.com/user-attachments/assets/0f4b3952-d708-4cb1-a058-535abac6d26b)
-  ![image](https://github.com/user-attachments/assets/81347eda-7c82-4323-9b8e-3b305d6f009d)
 
 ## Additional Information
 
