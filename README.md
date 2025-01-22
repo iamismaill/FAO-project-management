@@ -8,7 +8,7 @@ This is a simple project management system developed as part of an interview for
 - **View Projects**: Display a list of projects with their name, description, status, and timestamps.
 - **Update a Project**: Edit an existing project by updating its name, description, or status.
 - **Delete a Project**: Remove a project from the database.
-- **Import and Export**: Import and export project data via Excel files.
+- **Import and Export**: Import project data via Excel files.
 
 ## Tech Stack
 
@@ -16,14 +16,14 @@ This is a simple project management system developed as part of an interview for
 - **Frontend**: React
 - **Database**: MySQL
 - **API**: [https://iamismaill.com/api/api/projects](https://iamismaill.com/api/api/projects)
-- **File Handling**: Excel import and export functionality
+- **File Handling**: Excel import functionality
 
 ## Features Overview
 
 - **Project Form**: A form to create a new project with fields for name, description, and status (active, inactive, completed).
 - **Project Table**: Displays a table with all projects, showing their name, description, status, and timestamps (created_at/updated_at).
 - **CRUD Operations**: Users can perform CRUD (Create, Read, Update, Delete) operations on projects via the frontend.
-- **Import/Export**: Users can import project data from Excel and export the project list to Excel.
+- **Import/Export**: Users can import project data from Excel.
 
 ## API Endpoints
 
@@ -138,8 +138,9 @@ CREATE TABLE `projects` (
   Add new project screenshot
   ![image](https://github.com/user-attachments/assets/d66f257d-7bcb-4455-895a-f327ce9135da)
   Update project screenshot
-  ![image](https://github.com/user-attachments/assets/8ddaef5d-136a-4627-a5c0-b2cb8cc7a1d3)
   ![image](https://github.com/user-attachments/assets/53ac7944-0cfe-481e-bbb3-8a2df76a40fa)
+  ![image](https://github.com/user-attachments/assets/8ddaef5d-136a-4627-a5c0-b2cb8cc7a1d3)
+  Delete project screenshot
 
 ## Additional Information
 
