@@ -2,6 +2,11 @@
 
 This is a simple project management system developed as part of an interview for the FAO (Food and Agriculture Organization). It allows users to create, update, retrieve, and delete projects using a backend API and a frontend interface. The backend is built with Laravel, and the frontend is built using React. The system provides a way to manage a collection of projects, and it includes additional features like importing and exporting project data in Excel format.
 
+## Project Overview
+
+Below is the architecture diagram of the project showcasing the frontend, backend, and database integration:
+![image](https://github.com/user-attachments/assets/085ddbf5-4a7f-43d1-abfe-988cba9323fb)
+
 ## Features
 
 - **Create a Project**: Add a new project with name, description, and status.
