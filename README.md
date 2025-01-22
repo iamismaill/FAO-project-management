@@ -30,10 +30,11 @@ This is a simple project management system developed as part of an interview for
 - **GET** `/api/projects`: Retrieve the list of projects.(https://iamismaill.com/api/api/projects)
 
 - **POST** `/api/projects`: Create a new project.(https://iamismaill.com/api/api/projects)
+   - name,desc,status are required 
 
 - **PUT** `/api/projects/{id}`: Update an existing project by ID. (https://iamismaill.com/api/api/projects/{id})
 
-- **DELETE** `/api/projects/{id}`: Delete a project by ID [Online API](https://iamismaill.com/api/api/projects/{id})
+- **DELETE** `/api/projects/{id}`: Delete a project by ID. (https://iamismaill.com/api/api/projects/{id})
 
 ## Setup Instructions
 
