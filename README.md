@@ -1,4 +1,4 @@
-
+![image](https://github.com/user-attachments/assets/81347eda-7c82-4323-9b8e-3b305d6f009d)
 # FAO Project Management System
 
 This is a simple project management system developed as part of an interview for the FAO (Food and Agriculture Organization). It allows users to create, update, retrieve, and delete projects using a backend API and a frontend interface. The backend is built with Laravel, and the frontend is built using React. The system provides a way to manage a collection of projects, and it includes additional features like importing and exporting project data in Excel format.
@@ -28,16 +28,13 @@ This is a simple project management system developed as part of an interview for
 
 ## API Endpoints
 
-- **GET** `/api/projects`: Retrieve the list of projects.   (https://iamismaill.com/api/api/projects)
+- **GET** `/api/projects`: Retrieve the list of projects.(https://iamismaill.com/api/api/projects)
 
-- **POST** `/api/projects`: Create a new project.  
-  [Online API](https://iamismaill.com/api/api/projects)
+- **POST** `/api/projects`: Create a new project.(https://iamismaill.com/api/api/projects)
 
-- **PUT** `/api/projects/{id}`: Update an existing project by ID.  
-  [Online API](https://iamismaill.com/api/api/projects/{id})
+- **PUT** `/api/projects/{id}`: Update an existing project by ID. (https://iamismaill.com/api/api/projects/{id})
 
-- **DELETE** `/api/projects/{id}`: Delete a project by ID.  
-  [Online API](https://iamismaill.com/api/api/projects/{id})
+- **DELETE** `/api/projects/{id}`: Delete a project by ID [Online API](https://iamismaill.com/api/api/projects/{id})
 
 ## Setup Instructions
 
@@ -142,9 +139,16 @@ CREATE TABLE `projects` (
 
 ## Screenshots
 
-(Include relevant screenshots of the UI, project table, and form.)
+  ![image](https://github.com/user-attachments/assets/8ddaef5d-136a-4627-a5c0-b2cb8cc7a1d3)
+  ![image](https://github.com/user-attachments/assets/53ac7944-0cfe-481e-bbb3-8a2df76a40fa)
+  ![image](https://github.com/user-attachments/assets/d66f257d-7bcb-4455-895a-f327ce9135da)
+  ![image](https://github.com/user-attachments/assets/0f4b3952-d708-4cb1-a058-535abac6d26b)
+
+
+
+
 
 ## Additional Information
 
 - The frontend is currently being deployed to my host and will be available soon.
-- For more information, feel free to reach out to [iamismail](https://iamismaill.com).
+- For more information, feel free to reach out to (https://iamismaill.com).
